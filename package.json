@@ -1,5 +1,5 @@
 {
-    "name": "@swc/helpers",
+    "name": "amara-rcm-website",
     "packageManager": "yarn@4.0.2",
     "version": "0.5.15",
     "description": "External helpers for the swc project.",
@@ -7,9 +7,10 @@
     "main": "cjs/index.cjs",
     "sideEffects": false,
     "scripts": {
-        "build": "zx ./scripts/build.js",
-        "prepack": "zx ./scripts/build.js"
-    },
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/swc-project/swc.git"
@@ -30,11 +31,10 @@
     "homepage": "https://swc.rs",
     "type": "module",
     "devDependencies": {
-        "@ast-grep/napi": "^0.3.1",
-        "dprint": "^0.35.3",
-        "magic-string": "^0.30.0",
-        "zx": "^7.2.1"
-    },
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  },
     "dependencies": {
     "next": "^14.2.32",
     "react": "^18.3.1",
