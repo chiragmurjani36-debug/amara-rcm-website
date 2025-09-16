@@ -50,19 +50,15 @@ export default function AmaraLogo({
     <path d="M80 80 H200 V-40" fill="none" stroke="url(#chevHighlight)" stroke-width="10" opacity="0.8"/> */}
   </g>
 
-      {/* Text wordmark – shifted right of chevrons */}
-      <text
-        x="500"
-        y="450"
-        textAnchor="start"
+     // Main Title (editable text) -->
+  <text x="600" y="720" textAnchor="middle"
         fontFamily="Poppins, 'Segoe UI', Roboto, Arial, sans-serif"
         fontWeight="700"
-        fontSize="280"
-        fill="#eef4fb"   // change to "currentColor" if you want theme-based
-        letterSpacing="-8"
-      >
-        Amara
-      </text>
+        fontSize="220"
+        fill="#eef4fb"
+        letterSpacing="-6">
+    Amara
+  </text>
     </svg>
   );
 }
