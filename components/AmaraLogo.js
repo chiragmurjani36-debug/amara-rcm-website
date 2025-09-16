@@ -1,17 +1,77 @@
 export default function AmaraLogo({ className = "" }) {
   return (
-    <svg
-      className={className}
-      viewBox="0 0 100 100"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <circle cx="50" cy="50" r="45" fill="#FFC53D" />
-      <path
-        d="M30 35h40v5H30v-5zm0 10h40v5H30v-5zm0 10h40v5H30v-5zm0 10h25v5H30v-5z"
-        fill="#0B1220"
-      />
-      <circle cx="70" cy="70" r="8" fill="#00A8A8" />
-    </svg>
+   <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img" aria-label="Amara logo">
+  <!-- Background -->
+  <rect width="1200" height="1200" fill="#050826"/>
+
+  <defs>
+    <!-- primary gradient for chevrons -->
+    <linearGradient id="chevGrad" x1="1" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#48e0d9"/>
+      <stop offset="0.55" stop-color="#1cc6d8"/>
+      <stop offset="1" stop-color="#0586bd"/>
+    </linearGradient>
+
+    <!-- subtle darker face for 3D depth -->
+    <linearGradient id="chevDepth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0280a8"/>
+      <stop offset="0" stop-color="#005b86"/>
+    </linearGradient>
+
+
+    
+
+    <!-- soft drop shadow -->
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="8" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- GROUP: Right-angled arrows above "r" -->
+  <g transform="translate(755,570) scale(0.56) rotate(270)" filter="url(#softShadow)">
+    <!-- BACK (darker) -->
+    <path d="M0 0 H120 V-120" fill="none" stroke="url(#chevDepth)" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" transform="translate(9,9)"/>
+    <path d="M80 80 H200 V-40" fill="none" stroke="url(#chevDepth)" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" transform="translate(9,9)"/>
+
+    <!-- FRONT -->
+    <path d="M0 0 H120 V-120" fill="none" stroke="url(#chevGrad)" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M80 80 H200 V-40" fill="none" stroke="url(#chevGrad)" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- highlight -->
+    <path d="M0 0 H120 V-120" fill="none" stroke="url(#chevHighlight)" stroke-width="10" opacity="0.8"/>
+    <path d="M80 80 H200 V-40" fill="none" stroke="url(#chevHighlight)" stroke-width="10" opacity="0.8"/>
+  </g>
+
+  <!-- Main Title (editable text) -->
+  <text x="600" y="720" text-anchor="middle"
+        font-family="Poppins, 'Segoe UI', Roboto, Arial, sans-serif"
+        font-weight="700"
+        font-size="220"
+        fill="#eef4fb"
+        letter-spacing="-6">
+    Amara
+  </text>
+
+  <!-- Subheading -->
+  <text x="600" y="860" text-anchor="middle"
+        font-family="Poppins, 'Segoe UI', Roboto, Arial, sans-serif"
+        font-weight="500"
+        font-size="70"
+        fill="#e1e8f2"
+        letter-spacing="2">
+    RCM Services
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="940" text-anchor="middle"
+        font-family="Poppins, 'Segoe UI', Roboto, Arial, sans-serif"
+        font-weight="400"
+        font-size="46"
+        fill="#cfd8e6"
+        letter-spacing="1.2">
+    Your Revenue, Our Responsibility
+  </text>
+</svg>
+
   );
 }
