@@ -1,10 +1,7 @@
-
 // components/AmaraLogo.js
-export default function AmaraLogo({
-  className = ""
-}) {
-  return
-  <svg
+export default function AmaraLogo({ className = "" }) {
+  return (
+    <svg
       className={className}
       viewBox="0 0 100 100"
       fill="none"
@@ -15,7 +12,7 @@ export default function AmaraLogo({
         d="M30 35h40v5H30v-5zm0 10h40v5H30v-5zm0 10h40v5H30v-5zm0 10h25v5H30v-5z"
         fill="#0B1220"
       />
-      <circle cx="70" cy="70" r="8" fill="#00A8A8" />
-    </svg>
+      <circle cx="70" cy="70" r="8" fill="#00A8A8" />
+    </svg>
   );
 }
