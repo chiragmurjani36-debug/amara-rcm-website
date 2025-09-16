@@ -1,7 +1,9 @@
+
 // components/AmaraLogo.js
 export default function AmaraLogo({
   className = ""
 }) {
+  return
   <svg
       className={className}
       viewBox="0 0 100 100"
