@@ -59,25 +59,7 @@ export default function AmaraLogo({ className = "h-12 w-auto", title = "Amara lo
     Amara
   </text>
 
-   {/* Subheading */}
-  <text x="600" y="860" textAnchor="middle"
-        fontFamily="Poppins, 'Segoe UI', Roboto, Arial, sans-serif"
-        fontWeight="500"
-        fontSize="70"
-        fill="#e1e8f2"
-        letterSpacing="2">
-    RCM Services
-  </text>
-
-   {/* Tagline */}
-  <text x="600" y="940" textAnchor="middle"
-        fontFamily="Poppins, 'Segoe UI', Roboto, Arial, sans-serif"
-        fontWeight="400"
-        fontSize="46"
-        fill="#cfd8e6"
-        letterSpacing="1.2">
-    Your Revenue, Our Responsibility
-  </text>
+  
 </svg>
 
   );
