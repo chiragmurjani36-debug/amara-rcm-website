@@ -54,7 +54,7 @@ export default function AmaraLogo({
   <text x="600" y="720" textAnchor="middle"
         fontFamily="Poppins, 'Segoe UI', Roboto, Arial, sans-serif"
         fontWeight="700"
-        fontSize="520"
+        fontSize="500"
         fill="#eef4fb"
         letterSpacing="-6">
     Amara
