@@ -4,7 +4,6 @@ export default function AmaraLogo({ className = "h-12 w-auto", title = "Amara lo
     className={className} 
     xmlns="http://www.w3.org/2000/svg" 
     viewBox="0 0 1200 1200" 
-    role="img" 
     aria-hidden={decorative || undefined}
     aria-label={decorative ? undefined : title}
   >
