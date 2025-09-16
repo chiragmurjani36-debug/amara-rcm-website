@@ -8,7 +8,7 @@ export default function AmaraLogo({
     <svg
       className={className}
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1900 1800"
+      viewBox="0 0 1900 1900"
       aria-hidden={decorative || undefined}
       aria-label={decorative ? undefined : title}
     >
