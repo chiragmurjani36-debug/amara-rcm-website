@@ -8,7 +8,7 @@ export default function AmaraLogo({ className = "h-12 w-auto", title = "Amara lo
     aria-label={decorative ? undefined : title}
   >
     {/* Background */}
-  <rect width="700" height="700" fill="#050826"/>
+{/* <rect width="700" height="700" fill="#050826"/> */}
 
   <defs>
      {/* primary gradient for chevrons */}
