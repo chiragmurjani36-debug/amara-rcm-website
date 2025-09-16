@@ -8,7 +8,7 @@ export default function AmaraLogo({
     <svg
       className={className}
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1400 800"
+      viewBox="0 0 1900 1800"
       aria-hidden={decorative || undefined}
       aria-label={decorative ? undefined : title}
     >
@@ -54,7 +54,7 @@ export default function AmaraLogo({
   <text x="600" y="720" textAnchor="middle"
         fontFamily="Poppins, 'Segoe UI', Roboto, Arial, sans-serif"
         fontWeight="700"
-        fontSize="220"
+        fontSize="520"
         fill="#eef4fb"
         letterSpacing="-6">
     Amara
