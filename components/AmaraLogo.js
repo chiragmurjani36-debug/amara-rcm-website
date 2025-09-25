@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AmaraLogo() {
   return (
-    <div className="relative h-20 w-48">   {/* <— set the exact size you want */}
+    <div className="relative h-24 w-50">   {/* <— set the exact size you want */}
       <Image
         src="/logo.png"
         alt="Amara RCM Services Logo"
