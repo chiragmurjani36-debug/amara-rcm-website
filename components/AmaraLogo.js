@@ -1,13 +1,15 @@
+// components/AmaraLogo.js
 import Image from "next/image";
 
-export default function AmaraLogo({ className = "" }) {
+export default function AmaraLogo({ className = "h-16 w-auto" }) {
   return (
     <Image
-      src="/logo.png"   // file inside public/logo.png
+      src="/logo.png"   // path inside /public
       alt="Amara RCM Services Logo"
-      width={300}       // increase width
-      height={300}      // increase height
       className={className}
+      width={200}       // adjust size
+      height={200}
+      priority          // ensures logo loads fast
     />
   );
 }
