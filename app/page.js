@@ -9,7 +9,8 @@ export default function Page() {
         <div className="container py-3 flex items-center justify-between">
           <a href="#" className="flex items-center gap-3">
             <AmaraLogo className="h-9 w-9" />
-            <span className="text-lg md:text-xl font-semibold">RCM Services</span>
+            <span className="text-lg md:text-xl font-fredoka font-semibold">RCM Services</span>
+
           </a>
           <nav className="hidden md:flex gap-6 text-sm">
             <a href="#services">Services</a>
