@@ -1,7 +1,7 @@
 // components/AmaraLogo.js
 import Image from "next/image";
 
-export default function AmaraLogo({ className = "h-16 w-auto" }) {
+export default function AmaraLogo({ className = "h-20 w-auto" }) {
   return (
     <Image
       src="/logo.png"   // path inside /public
