@@ -7,8 +7,8 @@ export default function AmaraLogo({ className = "h-16 w-auto" }) {
       src="/logo.png"   // path inside /public
       alt="Amara RCM Services Logo"
       className={className}
-      width={354}       // adjust size
-      height={193}
+      width={300}       // adjust size
+      height={300}
       priority          // ensures logo loads fast
     />
   );
